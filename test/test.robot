@@ -3,7 +3,7 @@ Library  RemoteSwingLibrary
 
 *** Test Cases ***
 Запуск приложения
-    Start Application    app1    C:\\Program Files\\Java\\jre7\\bin\\javacpl.exe    10 seconds
+    Start Application    app1    path_to_javacpl.exe    10 seconds
     Select Window  Java Control Panel
 Получение данные из раздела Network settings
     ${textFieldValue}=	Get Textfield Value	 1
